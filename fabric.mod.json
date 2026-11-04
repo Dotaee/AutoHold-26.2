@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "autohold",
+  "version": "${version}",
+  "name": "AutoHold",
+  "description": "Avance et casse sans fin (touche H).",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["fr.autohold.AutoHoldClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
